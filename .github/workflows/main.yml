@@ -45,7 +45,7 @@ jobs:
       #  env:
       #    SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       
-      - uses: actions/checkout@master
+      #trufflehog
       - name: trufflehog-actions-scan
         uses: edplato/trufflehog-actions-scan@master
         with:
